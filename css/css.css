@@ -5,7 +5,7 @@
 	margin: 0;
 	font-family: 'Kanit', sans-serif;
 }
-html{
+html, body{
 	scroll-behavior: smooth;
 }
 #logo{
@@ -94,10 +94,6 @@ html{
 .bannerheader{
 	position: absolute;
 	z-index: 1;
-}
-
-.banner{
-	width: 100%;
 }
 .tieude{
 	position: absolute;
