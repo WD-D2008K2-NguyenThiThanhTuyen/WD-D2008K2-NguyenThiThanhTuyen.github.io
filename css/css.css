@@ -8,6 +8,9 @@
 html, body{
 	scroll-behavior: smooth;
 }
+body{
+	overflow-x: hidden;
+}
 #logo{
 	position: absolute;
 	left: -500px;
@@ -286,7 +289,7 @@ section{
 	background-color: #320A0A;
 }
 .s5 .grid{
-   padding: 50px 0px 0 210px;
+   padding: 50px 0px 0 200px;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 20px;
@@ -474,11 +477,16 @@ input[type=submit]:hover {
 	poisition: relative;
 	z-index: 1;
 }
+#btt{
+	position: fixed;
+	top: 878px;
+	z-index: 99;
+}
 .fa-arrow-circle-up{
-	padding: 6px 0 0 1300px;
+	padding: 6px 0 0 1750px;
     color: white;
 }
 .fa-arrow-circle-up:hover {
-  color: #C55355;
+  color: #2D0506;
   cursor: pointer;
 }
