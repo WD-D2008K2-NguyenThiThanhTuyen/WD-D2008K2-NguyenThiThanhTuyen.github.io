@@ -5,7 +5,7 @@
 	margin: 0;
 	font-family: 'Kanit', sans-serif;
 }
-html, body{
+html{
 	scroll-behavior: smooth;
 }
 body{
@@ -289,7 +289,7 @@ section{
 	background-color: #320A0A;
 }
 .s5 .grid{
-   padding: 50px 0px 0 200px;
+   padding: 50px 0px 0 230px;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 20px;
@@ -477,16 +477,11 @@ input[type=submit]:hover {
 	poisition: relative;
 	z-index: 1;
 }
-#btt{
-	position: fixed;
-	top: 878px;
-	z-index: 10;
-}
 .fa-arrow-circle-up{
-	padding: 6px 0 0 1750px;
+	padding: 6px 0 0 1300px;
     color: white;
 }
 .fa-arrow-circle-up:hover {
-  color: #2D0506;
+  color: #350B0C;
   cursor: pointer;
 }
