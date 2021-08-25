@@ -109,7 +109,7 @@
 		</div>
 		<div class="bannerheader">
 		  <div class="banner">
-			<img src="img/yasuka-taira-hq-japanese-school-2019-07-03-12-52-27-993.jpg" alt="banner" height="1070px">
+			<img src="img/yasuka-taira-hq-japanese-school-2019-07-03-12-52-27-993.jpg" alt="banner" height="1070px" width="100%">
 		  </div>
 		  <div class="tieude">
 			  <section class="section--green wow slideInLeft" data-wow-duration="4s"><h1 style="font-size: 80px">Chilla's Art</h1></section>
@@ -282,7 +282,7 @@
 		</section>
 		<div class="footerr">
 		<h4 style="color: antiquewhite; padding: 17px 0 0 200px">@ttuyn2021</h4>
-		<div id="btt"><a href="#header"><i class="fas fa-arrow-circle-up" style="font-size: 40px"></i></a></div>
+		<div onclick="topFunction()" id="btt" title="Go to top"><i class="fas fa-arrow-circle-up" style="font-size: 40px"></i></div>
 	    </div>
 	</div>
 </body>
@@ -390,4 +390,26 @@ function showSlides(n) {
 	<!--counternumber-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="plugin/number-counter-for-the-site/src/script.js"></script>
+	<!--backtotop-->
+	<script>
+//Get the button
+var mybutton = document.getElementById("btt");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 </html>

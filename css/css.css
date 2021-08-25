@@ -478,8 +478,9 @@ input[type=submit]:hover {
 	z-index: 1;
 }
 .fa-arrow-circle-up{
-	padding: 6px 0 0 1300px;
-    color: white;
+	padding: 700px 0 0 550px;
+    color: antiquewhite;
+	display: block;
 }
 .fa-arrow-circle-up:hover {
   color: #350B0C;
