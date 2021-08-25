@@ -478,11 +478,11 @@ input[type=submit]:hover {
 	z-index: 1;
 }
 .fa-arrow-circle-up{
-	padding: 7px 0 0 1200px;
+	padding: 6px 0 0 1200px;
     color: antiquewhite;
 	display: block;
 }
-.fa-arrow-circle-up:hover {
+.fa-arrow-circle-up:hover{
   color: #350B0C;
   cursor: pointer;
 }
